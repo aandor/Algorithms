@@ -4,6 +4,8 @@ def binary_search(values: List, target: Any) -> Optional[int]:
     """
     Perform a binary search to find a target value in a values.
     
+    The list must be sorted
+    
     Return the index of the target if found
     
     Return None if target is not found
